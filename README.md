@@ -15,7 +15,7 @@ Our Video BagNet model is obtained from a modification of the 3D ResNet-50 model
 
 ([code](https://github.com/kenshohara/3D-ResNets-PyTorch))
 
-The implementation of Video BagNet can be found in `models/vid_bagnet_tem.py`. You can use the parameter --receptive_size to vary the temporal receptive field of Video BagNet ( 1 | 9 | 17 | 33 ).
+The implementation of Video BagNet can be found in `models/vid_bagnet_tem.py`. You can use the parameter `--receptive_size` to vary the temporal receptive field of Video BagNet ( 1 | 9 | 17 | 33 ).
 
 ## Citation
 
