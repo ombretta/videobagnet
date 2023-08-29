@@ -1,7 +1,7 @@
 # Video BagNet
 Official repository of the paper "Video BagNet: short temporal receptive fields increase robustness in long-term action recognition", published in the ICCV 2023 workshop on Visual Inductive Priors ([arXiv](https://arxiv.org/pdf/2308.11249.pdf)).
 
-#Abstract
+# Abstract
 
 Previous work on long-term video action recognition relies on deep 3D-convolutional models that have a large temporal receptive field (RF). We argue that these models are not always the best choice for temporal modeling in videos. A large temporal receptive field allows the model to encode the exact sub-action order of a video, which causes a performance decrease when testing videos have a different sub-action order. In this work, we investigate whether we can improve the model's robustness to the sub-action order by shrinking the temporal receptive field of action recognition models. For this, we design Video BagNet, a variant of the 3D ResNet-50 model with the temporal receptive field size limited to 1, 9, 17, or 33 frames. We analyze Video BagNet on synthetic and real-world video datasets and experimentally compare models with varying temporal receptive fields. We find that short receptive fields are robust to sub-action order changes, while larger temporal receptive fields are sensitive to the sub-action order.
 
